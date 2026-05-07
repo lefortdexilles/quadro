@@ -15,7 +15,7 @@ if uploaded_file is None:
     st.stop()
 
 if uploaded_file.name.endswith(".xlsx"):
-    df = pd.read_excel(uploaded_file, sheet_name="Feuil2")
+    df = pd.read_excel(uploaded_file, sheet_name="Feuil2", engine="openpyxl")
 else:
     df = pd.read_csv(uploaded_file)
 
