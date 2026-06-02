@@ -71,12 +71,12 @@ criteres = [
 # Initialisation du session_state
 if "groupe_1" not in st.session_state:
     st.session_state.groupe_1 = [
-        "c1_note", "c2", "c3", "c5_note", "c7", "c10", "c12_note",
-        "c15", "c18_note", "c19_note"
+        "c1_note", "c2", "c3", "c5_note", "c7", "c10",
+        "c15", "c18_note", "c17_note"
     ]
 
 if "groupe_2" not in st.session_state:
-    st.session_state.groupe_2 = ["c8", "c9", "c11", "c14_note", "c16", "c17_note"]
+    st.session_state.groupe_2 = ["c8", "c9", "c11", "c14_note", "c16", "c12_note", "c19_note"]
 
 if "groupe_3" not in st.session_state:
     st.session_state.groupe_3 = ["c4_note", "c6", "c13_note"]
